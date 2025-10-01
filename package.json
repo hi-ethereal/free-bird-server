@@ -1,15 +1,17 @@
 {
   "name": "free-bird-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Signaling server for Free Bird Chat",
   "main": "signaling-server.js",
   "scripts": {
+    "start": "node signaling-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ws": "^8.18.3"
+    "ws": "^8.14.2"
   }
 }
+
